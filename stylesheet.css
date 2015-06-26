@@ -34,27 +34,40 @@
 
 #page-header div {
 	padding: 4px;
+}
+
+.barcode {
+	background-repeat: no-repeat;
+    background-size: contain;
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+}
+
+.page-header-section {
 	display: inline-block;
 }
 
+.barcode_title a:link, :visited {
+	text-decoration: none;
+	color: #b2b2b2;
+	font-family: cursive;
+}
+
 #linkedinbarcode {
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100px;
     background-image: url('linkedinbarcode.png');
-    height: 100px;
-    margin-top: 10px;
-    margin-right: 50px;
+}
+
+#linkedinbarcodeWrapper {
+	margin-right: 50px;
 }
 
 #githubbarcode {
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100px;
     background-image: url('github_barcode.png');
-    height: 100px;
-    margin-top: 10px;
-    margin-left: 50px;
+}
+
+#githubbarcodeWrapper {
+	margin-left: 50px;
 }
 
 #online_profile {
