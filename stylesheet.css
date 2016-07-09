@@ -181,7 +181,7 @@ ul {
 }
 
 #certifications ul {
-	list-style-type: square; 
+	list-style-type: square;
 }
 
 #Recognitions ul {
@@ -189,7 +189,7 @@ ul {
 }
 
 #interests ul {
-	list-style-type: disc; 
+	list-style-type: disc;
 }
 
 #degrees {
@@ -216,4 +216,8 @@ footer {
 footer a, footer a:link, footer a:visited {
 	text-decoration: none;
 	color: #f24c27;
+}
+
+strong {
+	color: #404040;
 }
