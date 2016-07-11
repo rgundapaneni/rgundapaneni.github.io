@@ -81,10 +81,6 @@
 	font-family: cursive;
 }
 
-#career_view ul, #career_status ul, #education_view ul {
-	list-style-type: square;
-}
-
 section h2 {
 	color: #f24c27;
 	padding-bottom: 12px;
@@ -102,6 +98,16 @@ section h2 {
 ul {
 	list-style-type: none;
 	margin-left: 20px;
+}
+
+.summary-point, #career_view ul, #career_status ul, #education_view ul {
+	list-style-type: square;
+}
+
+.summary-location > div {
+	font-weight: bolder;
+	color: #037E8C;
+	margin-bottom: 10px;
 }
 
 #summary ul li {
@@ -171,6 +177,10 @@ ul {
 
 .work-detail ul {
 	list-style-type: circle;
+}
+
+.work-detail strong {
+	color: #333;
 }
 
 .work-detail-separator {
