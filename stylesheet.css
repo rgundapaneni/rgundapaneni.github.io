@@ -81,6 +81,10 @@
 	font-family: cursive;
 }
 
+#career_view ul, #career_status ul, #education_view ul {
+	list-style-type: square;
+}
+
 section h2 {
 	color: #f24c27;
 	padding-bottom: 12px;
@@ -98,10 +102,6 @@ section h2 {
 ul {
 	list-style-type: none;
 	margin-left: 20px;
-}
-
-#summary ul, #career_view ul, #career_status ul, #education_view ul {
-	list-style-type: square;
 }
 
 #summary ul li {
