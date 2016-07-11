@@ -100,7 +100,7 @@ ul {
 	margin-left: 20px;
 }
 
-#summary ul {
+#summary ul, #career_view ul, #career_status ul, #education_view ul {
 	list-style-type: square;
 }
 
@@ -192,29 +192,19 @@ ul {
 	list-style-type: disc;
 }
 
-#degrees {
-	list-style-image: url('degree.jpg');
-	margin-left: 30px;
-}
-
-#degrees ul {
-	list-style-type: none;
-	list-style-image: none;
-}
-
-#gpa {
-	margin-left: 20px;
-	font-weight: bold;
-	font-family: cursive;
-}
-
 footer {
-	padding: 5px;
-	text-align: center;
+	text-align: left;
 }
 
 footer a, footer a:link, footer a:visited {
 	text-decoration: none;
+	color: #f24c27;
+}
+
+footer p {
+	padding: 10px;
+	font-weight: bold;
+	font-family: cursive;
 	color: #f24c27;
 }
 
